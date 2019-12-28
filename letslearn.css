@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #4CAF50;
+}
+ h1 {
+   background-color: black;
+   color: #4CAF50;
+   border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.total {
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: black;
+}
+.aca, .comp, .ent {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px;
+  color: black;
+}
+ul {
+   background-color: #000000;
+   border-radius: 5px;
+   color: #4CAF50;
+   list-style-type: square;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   width: 200px;
+ }
+ a {
+   text-decoration: none;
+   color: #ffffff;
+ }
+ul a {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+.but1, .but2, .but3 {
+  background-color: orange;
+  border-radius: 5px;
+  border: none;
+  color: #f1f1f1;
+  padding: 12px 28px;
+  font-size: 20px;
+  margin: 20px 20px;
+  width:200px;
+  cursor: grab;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  .but1:hover, .but2:hover, .but3:hover {
+  background-color: black;
+  color: white;
+}
+ .foot {
+  bottom: 0px;
+  color: #000000;
+}
