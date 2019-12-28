@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ADFF2F;
+}
+h1 {
+  background: #000000;
+  color: #ADFF2F;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.total {
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: black;
+}
+.jee, .neet, .aiims, .nid, .nad, .icar, .clat, .barch {
+  background-color: #ADFF2F;
+  color: #000000;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px;
+}
+ul {
+  background-color: #000000;
+  border-radius: 5px;
+  color: #ADFF2F;
+  list-style-type: square;
+  width: 200px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+ul a {
+  text-decoration: underline;
+  color:#ADFF2F;
+}
+.but1, .but2, .but3, .but4, .but5, .but6, .but7, .but8 {
+  color: #ADFF2F;
+  border: none;
+  border-radius: 5px;
+  background-color: #CD5C5C;
+  padding: 12px 28px;
+  font-size: 20px;
+  margin: 20px 20px;
+  width: 200px;
+  cursor: grab;
+  transition-duration: 0.45s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.but1:hover, .but2:hover, .but3:hover, .but4:hover, .but5:hover, .but6:hover, .but7:hover, .but8:hover {
+  background-color: #000000;
+}
+.foot {
+ bottom: 0px;
+ color: #000000;
+}
