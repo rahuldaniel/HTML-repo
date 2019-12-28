@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #2196F3;
+}
+ h1 {
+   background-color: black;
+   color: #2196F3;
+   border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.total {
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: black;
+}
+
+.gate, .upse, .ugc, .cat, .groups, .rrb {
+  background-color: #2196F3;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px;
+  color: black;
+}
+
+ul {
+   list-style-type: georgian;
+   background-color: #000000;
+   border-radius: 5px;
+   color: #2196F3;
+   list-style-type: square;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   width: 200px;
+ }
+ a {
+   text-decoration: none;
+   color: #ffffff;
+ }
+ul a {
+  color: #2196F3;
+  text-decoration: underline;
+}
+.but1, .but2, .but3, .but4, .but5, .but6 {
+  background-color: tomato;
+  border-radius: 5px;
+  border: none;
+  color: #f1f1f1;
+  padding: 12px 28px;
+  font-size: 20px;
+  margin: 20px 20px;
+  width:300px;
+  cursor: grab;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+}
+  .but1:hover, .but2:hover, .but3:hover, .but4:hover, .but5:hover, .but6:hover {
+  background-color: black;
+  color: white;
+}
+ .foot {
+  bottom: 0px;
+  color: #000000;
+}
