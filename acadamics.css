@@ -1,0 +1,60 @@
+* {box-sizing: border-box;}
+body {background-color:orange;}
+h1 {
+     background-color:black;
+     color: orange;
+     border-radius: 5px;
+     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+.total {
+    background-color: black;
+    border-radius: 5px;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+       }
+.kg, .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth, .ninth, .tenth, .eleventh, .twelth {
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 10px;
+    margin: 10px;
+}
+ul {
+    background-color: black;
+    list-style-type: georgian;
+    border-radius: 5px;
+    color: orange;
+    width: 200px;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    list-style-type: square;   
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+ ul a {
+   color: orange;
+   text-decoration: underline;
+ }
+.but1, .but2, .but3, .but4, .but5, .but6, .but7, .but8, .but9, .but10, .but11, .but12, .but13 {
+background-color: #DC143C;
+border-radius: 5px;
+border: none;
+color: black;
+text-decoration: none;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+transition-duration: 0.4s;
+cursor: grab;
+font-size: 20px;
+width: 300px;
+margin: 20px 20px;
+padding: 12px 28px;
+}
+.but1:hover, .but2:hover, .but3:hover, .but4:hover, .but5:hover, .but6:hover, .but7:hover, .but8:hover, .but9:hover, .but10:hover, .but11:hover, .but12:hover, .but13:hover {
+    background-color: black;
+    color: pink;
+}
+   .foot {
+    bottom: 0px;
+    color: #000000;
+  }
